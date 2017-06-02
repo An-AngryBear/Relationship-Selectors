@@ -1,0 +1,42 @@
+header {
+	border: 1px dotted black;
+}
+
+nav ul li {
+	display: inline;
+	padding-left: 1em;
+}
+.disabled {
+	color: gray;
+}
+
+a.disabled {
+	color: purple;
+}
+.active {
+	color: yellow;
+}
+
+#red {
+	color: red;
+}
+#blue {
+
+}
+#red + h4 {
+	background-color: red;
+}
+#blue + h4 {
+	background-color: blue;
+}
+.grandparent > h4 {
+	border: 1px solid black;
+	border-radius: 5px;
+}
+.promo {
+	color: gold;
+	font-weight: bolder;
+}
+input[type="text"] {
+	height: 25px;
+}
